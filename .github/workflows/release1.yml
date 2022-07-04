@@ -25,6 +25,11 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Build weasis-dicom-tools
         run: mvn -B clean install -f main
+      - name: Upload the jar
+        uses: actions/upload-artifact@v2
+        with:
+          name: target
+          path: ./target
       - name: Extract Maven project version
         run: |
           cd main
