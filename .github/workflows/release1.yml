@@ -30,6 +30,18 @@ jobs:
         with:
           name: target
           path: ./target
+      - name: searching the file location
+        run: |
+          tree -a
+          ls -a
+          ls /home/runner/work/
+          ls /home/runner/
+          ls /home/runner/work
+          ls /home/runner
+          ls /home/
+          ls /home
+          
+          
       - name: Extract Maven project version
         run: |
           cd main
