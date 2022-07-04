@@ -33,7 +33,7 @@ jobs:
       - name: Checkout mvn-repo repository
         uses: actions/checkout@v2
         with:
-          repository: nroduit/mvn-repo
+          repository: dev45321/viewer-mvn-repo
           path: mvn-repo
           token: ${{ secrets.API_TOKEN_GITHUB }}
       - name: Install xmlstarlet
