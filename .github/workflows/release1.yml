@@ -29,17 +29,8 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: target
-          path: ./target
-      - name: searching the file location
-        run: |
-          tree -a
-          ls -a
-          ls /home/runner/work/
-          ls /home/runner/
-          ls /home/runner/work
-          ls /home/runner
-          ls /home/
-          ls /home
+          path: ./main/target
+
           
           
       - name: Extract Maven project version
