@@ -16,9 +16,9 @@
     <dcm4che.version>5.25.1</dcm4che.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <sonar.projectKey>MedReportViewer-dicom-tools</sonar.projectKey>
+    <!-- <sonar.projectKey>MedReportViewer-dicom-tools</sonar.projectKey>
     <sonar.organization>nroduit-github</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url> -->
   </properties>
 
   <licenses>
@@ -30,17 +30,16 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:nroduit/MedReportViewer-dicom-tools.git</connection>
-    <developerConnection>scm:git:https://github.com/nroduit/MedReportViewer-dicom-tools.git
-    </developerConnection>
-    <url>https://github.com/nroduit/MedReportViewer-dicom-tools</url>
+    <connection>scm:git:git@github.com:dev45321/viewer-dicom-tools-2.git</connection>
+    
+    <url>https://github.com/dev45321/viewer-dicom-tools-2</url>
   </scm>
 
   <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub MedReportViewer Maven Packages</name>
-      <url>https://maven.pkg.github.com/nroduit/MedReportViewer-dicom-tools</url>
+      <url>https://github.com/dev45321/viewer-dicom-tools-2</url>
     </repository>
   </distributionManagement>
   <repositories>
@@ -54,7 +53,7 @@
     </repository>
     <repository>
       <id>mvn-repo-master</id>
-      <url>https://raw.github.com/nroduit/mvn-repo/master/</url>
+      <url>https://github.com/dev45321/viewer-dicom-tools-2/tree/main/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
