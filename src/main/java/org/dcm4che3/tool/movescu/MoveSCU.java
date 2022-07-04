@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2020 Weasis Team and other contributors.
+ * Copyright (c) 2014-2020 MedReportViewer Team and other contributors.
  *
  * This program and the accompanying materials are made available under the terms of the Eclipse
  * Public License 2.0 which is available at https://www.eclipse.org/legal/epl-2.0, or the Apache
@@ -30,8 +30,8 @@ import org.dcm4che3.net.pdu.ExtendedNegotiation;
 import org.dcm4che3.net.pdu.PresentationContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.weasis.dicom.param.DicomProgress;
-import org.weasis.dicom.param.DicomState;
+import org.MedReportViewer.dicom.param.DicomProgress;
+import org.MedReportViewer.dicom.param.DicomState;
 
 /** @author Gunter Zeilinger <gunterze@gmail.com> */
 public class MoveSCU extends Device implements AutoCloseable {

@@ -23,7 +23,7 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-      - name: Build weasis-dicom-tools
+      - name: Build MedReportViewer-dicom-tools
         run: mvn -B clean install -f main
       - name: Upload the jar
         uses: actions/upload-artifact@v2
@@ -50,7 +50,7 @@ jobs:
         run: |
           cd mvn-repo
           REPO=$(pwd)
-          PKGFOLDER="org/weasis/weasis-dicom-tools"
+          PKGFOLDER="org/MedReportViewer/MedReportViewer-dicom-tools"
           TAG_VERSION=${{ steps.project.outputs.version }}
           F_META="maven-metadata.xml"
           cd ~/.m2/repository/${PKGFOLDER}
@@ -73,5 +73,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Add weasis-dicom-tools release"
+          git commit -m "Add MedReportViewer-dicom-tools release"
           git push

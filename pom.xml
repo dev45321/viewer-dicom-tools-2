@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.weasis</groupId>
-  <artifactId>weasis-dicom-tools</artifactId>
+  <groupId>org.MedReportViewer</groupId>
+  <artifactId>MedReportViewer-dicom-tools</artifactId>
   <packaging>jar</packaging>
-  <name>Weasis DICOM API (based on dcm4che3)</name>
+  <name>MedReportViewer DICOM API (based on dcm4che3)</name>
   <version>5.25.1</version>
 
   <properties>
@@ -16,7 +16,7 @@
     <dcm4che.version>5.25.1</dcm4che.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <sonar.projectKey>weasis-dicom-tools</sonar.projectKey>
+    <sonar.projectKey>MedReportViewer-dicom-tools</sonar.projectKey>
     <sonar.organization>nroduit-github</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
@@ -30,17 +30,17 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:nroduit/weasis-dicom-tools.git</connection>
-    <developerConnection>scm:git:https://github.com/nroduit/weasis-dicom-tools.git
+    <connection>scm:git:git@github.com:nroduit/MedReportViewer-dicom-tools.git</connection>
+    <developerConnection>scm:git:https://github.com/nroduit/MedReportViewer-dicom-tools.git
     </developerConnection>
-    <url>https://github.com/nroduit/weasis-dicom-tools</url>
+    <url>https://github.com/nroduit/MedReportViewer-dicom-tools</url>
   </scm>
 
   <distributionManagement>
     <repository>
       <id>github</id>
-      <name>GitHub Weasis Maven Packages</name>
-      <url>https://maven.pkg.github.com/nroduit/weasis-dicom-tools</url>
+      <name>GitHub MedReportViewer Maven Packages</name>
+      <url>https://maven.pkg.github.com/nroduit/MedReportViewer-dicom-tools</url>
     </repository>
   </distributionManagement>
   <repositories>
@@ -239,7 +239,7 @@
               <!-- @formatter:off -->
               <content>
 /*
- * Copyright (c) $YEAR Weasis Team and other contributors.
+ * Copyright (c) $YEAR MedReportViewer Team and other contributors.
  *
  * This program and the accompanying materials are made available under the terms of the Eclipse
  * Public License 2.0 which is available at https://www.eclipse.org/legal/epl-2.0, or the Apache
